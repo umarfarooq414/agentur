@@ -1,0 +1,49 @@
+.day-mode .leftMenuContainer{
+    color: black;
+    background-color: rgba(126, 126, 126, 0.5);}
+
+
+.day-mode .leftMenuContainer button svg,
+.day-mode #daymodebtn svg{
+    fill: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+.day-mode .leftMenuContainer>button:hover{
+    background-color: rgba(55, 55, 55, 0.2);
+}
+
+
+.day-mode .midClickContainer{
+    background-color: rgba(55, 55, 55, 0.2);
+}
+
+.day-mode .midContain_Heading {
+    color: black;
+}   
+
+.day-mode .midContain_inputFields label,
+.day-mode .midContain_inputLastPara,
+.day-mode .registrationInfo p,
+.day-mode .navbar,
+.day-mode .navbar>a  {
+    color: black;
+}
+
+
+.day-mode .rightCotainer {
+    background-color: rgb(255, 255, 255);
+}
+
+.day-mode .languageInputField {
+    color: black;
+    background-color: rgba(145, 145, 145, 0.5);}
+
+.day-mode .registerInputField {
+    color: black;
+    background-color: rgb(186 193 200 / 80%);}
+
+.day-mode .registerbtn {
+    background-color: rgb(24 85 189);
+}

@@ -1,0 +1,40 @@
+.style.announcementsList {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px 2px lightgray;
+  border-radius: 10px;
+}
+
+.style.announcementItem {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f1faff;
+  box-shadow: 0px 0px 5px 2px lightgray;
+}
+
+.style.announcementDate {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.style.announcementContent {
+  font-size: 16px;
+  text-align: center;
+}
+.formAnnouncement {
+  border: 1px solid #cbcbcb;
+  background-color: red;
+  color: #cbcbcb;
+}
+.style.formAnnouncement {
+  border: 1px solid #cbcbcb;
+  background-color: red;
+  color: #cbcbcb;
+}

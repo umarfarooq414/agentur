@@ -1,0 +1,37 @@
+import { ChatsGateway } from './chats.gateway';
+import { Server, Socket } from 'socket.io';
+import { OnGatewayConnection, OnGatewayDisconnect, OnGatewayInit } from '@nestjs/websockets';
+import { ChatService } from './chat.service';
+import { Chat } from './entities/chat.entity';
+import { Repository } from 'typeorm';
+import { Message } from '@lib/dtos/chat/incomingRequest';
+import { UserService } from '../user/user.service';
+import { IAnnouncement } from '@lib/dtos/chat/announcement';
+import { MailService } from '../mail/mail.service';
+import { ConfigService } from '@nestjs/config';
+export declare class AdminGateway implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
+    private readonly chatGateway;
+    private repository;
+    private chatService;
+    private userService;
+    private mailService;
+    private configService;
+    constructor(chatGateway: ChatsGateway, repository: Repository<Chat>, chatService: ChatService, userService: UserService, mailService: MailService, configService: ConfigService);
+    server: Server;
+    private rooms;
+    private notificationCount;
+    private count;
+    afterInit(server: any): void;
+    handleConnection(client: Socket): Promise<void>;
+    updateUsersList(): Promise<void>;
+    handleDisconnect(client: Socket): void;
+    onMessage(client: Socket, data: Message): Promise<void>;
+    onMultiMessage(client: Socket, data: Message): Promise<void>;
+    onAnnouncement(client: Socket, data: IAnnouncement): Promise<void>;
+    onDeleteAnnouncement(client: Socket, data: IAnnouncement): Promise<void>;
+    unseenMessageCount(client: Socket, data: any): Promise<void>;
+    logoutNotification(client: Socket, data: any): Promise<void>;
+    acknowledge(client: Socket, data: any): Promise<void>;
+    receivedFromUser(roomId: string, data: Message, notificationCount: any): Promise<void>;
+    notification(id: string, ids: any): void;
+}

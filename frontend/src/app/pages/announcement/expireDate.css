@@ -1,0 +1,46 @@
+.expireDateWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.expireDateLabel {
+  margin-bottom: 5px;
+}
+
+/* .expireDateInput {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+} */
+.expireDateInput {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #3e3e51;
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+.datepickerbg {
+  color-scheme: dark;
+}
+
+

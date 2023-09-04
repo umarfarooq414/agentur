@@ -1,0 +1,177 @@
+/* @media (max-width: 1300px) {
+    .midClickContainer {
+        width: 40%;
+    }
+
+    .rightCotainer {
+        width: 57%;
+    }
+} */
+@media (max-width: 1300px) {
+    .bodyMainContainer {
+        display: block;
+    }
+
+    .leftMenuContainer {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+
+    .leftMenuContainer>button {
+        margin-bottom: 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .midClickContainer {
+        width: 100%;
+        max-height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rightCotainer {
+        width: 100%;
+        max-height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .registrationInfo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 820px) {
+    .bodyMainContainer {
+        display: block;
+    }
+
+    .leftMenuContainer {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+
+    .leftMenuContainer>button {
+        margin-bottom: 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .midClickContainer {
+        width: 100%;
+        max-height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rightCotainer {
+        width: 100%;
+        max-height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .registrationInfo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 788px) {
+    .bodyMainContainer {
+        display: block;
+    }
+
+    .leftMenuContainer {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+
+    .leftMenuContainer>button {
+        margin-bottom: 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .midClickContainer {
+        width: 100%;
+        max-height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rightCotainer {
+        width: 100%;
+        max-height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .registrationInfo {
+        width: 70%;
+    }
+}
+
+@media (max-width: 780px) {
+    .bodyMainContainer {
+        display: block;
+    }
+
+    .leftMenuContainer {
+        height: 55px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+
+    .leftMenuContainer>button {
+        margin-bottom: 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .midClickContainer {
+        width: 100%;
+        max-height: 100%;
+        padding-bottom: 30px;
+    }
+
+    .rightCotainer {
+        width: 100%;
+        max-height: 100vh;
+        padding-bottom: 30px;
+    }
+
+    .registrationInfo {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .midContain_registerHeading {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .registrationInfo {
+        width: 100%;
+        padding: 30px 40px 20px;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .midContain_Heading {
+        text-align: center;
+    }
+
+    .midContain_registerHeading {
+        text-align: center;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+}

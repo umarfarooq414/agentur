@@ -1,0 +1,201 @@
+.termsAndConditionsCheckBox {
+  margin-bottom: 10px;
+}
+
+.errorMessageWrapper {
+  width: 63%;
+  color: red;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.bodyMainContainer {
+  height: 100% !important;
+  width: 100%;
+  display: flex;
+}
+
+.leftMenuContainer {
+  padding-left: 5px;
+  width: 55px;
+  height: 100%;
+  background-color: rgb(12, 7, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+.leftMenuContainer > button {
+  padding: 10px 12px;
+  border-radius: 3px 0 0 3px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.leftMenuContainer > button:hover {
+  background-color: rgb(55, 55, 55);
+  cursor: pointer;
+}
+
+.midClickContainer {
+  width: 30%;
+  max-height: 100vh;
+  background-color: rgba(55, 55, 55, 0.8);
+}
+
+.midContainerWraping {
+  padding: 0 20px;
+}
+
+.midContain_Heading {
+  height: 53px;
+  padding: 18px 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.midContain_registerHeading {
+  height: 53px;
+  padding: 18px 0;
+  font-size: 16px;
+  color: rgb(0, 0, 255);
+  font-weight: 600;
+}
+
+.midContain_inputFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.midContain_inputFields > label {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.languageInputField {
+  width: 65%;
+  height: 30px;
+  background-color: rgba(18, 20, 23, 0.8);
+  padding: 0 10px;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+}
+
+.registerInputField {
+  width: 65%;
+  height: 30px;
+  background-color: rgba(43, 59, 77, 0.8);
+  padding: 0 10px;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+}
+
+.passwordfield {
+  position: relative;
+}
+
+.passwordVisible {
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  right: 2%;
+  top: 25%;
+}
+
+.registerbtn {
+  display: flex;
+  width: 65%;
+  height: 30px;
+  background-color: rgba(78, 140, 247, 0.8);
+  padding: 0 10px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.registerbtn > p {
+  padding-left: 20px;
+}
+
+.registerbtn:hover {
+  background-color: rgba(78, 140, 247, 0.6);
+  cursor: pointer;
+}
+
+.midContain_inputLastPara {
+  width: 65%;
+  font-size: 12px;
+  color: white;
+  line-height: 20px;
+}
+
+.rightCotainer {
+  max-height: 100%;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar {
+  height: 53px;
+  padding: 18px 20px;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar > a {
+  color: white;
+  margin-left: 5px;
+}
+
+#daymodebtn {
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.registrationInfo {
+  width: 50%;
+  padding: 30px 0 0 40px;
+}
+
+.registrationInfo > h2 {
+  color: rgb(0, 0, 255);
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.registrationInfo p {
+  padding: 10px 0;
+  font-size: 14px;
+  color: white;
+  line-height: 20px;
+}

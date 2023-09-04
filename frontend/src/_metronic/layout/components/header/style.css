@@ -1,0 +1,71 @@
+.chatPopUpBox {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #053d66;
+  background-color: #31313f;
+  margin: 0;
+  padding: 0;
+}
+
+.chatPopUpBox ul {
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+.chatPopUpBox li {
+  text-align: left;
+  background-color: #1e1e2d;
+  margin-bottom: 3px;
+  padding: 5px 0px;
+  border-radius: 10px;
+}
+
+.chatPopUpBox ul li .fw-bold.text-gray-400 {
+  padding-left: 65px;
+}
+
+.chatPopUpBox .symbol.symbol-45px.symbol-circle {
+  margin: 0px 10px;
+}
+
+a.fs-5.fw-bolder.text-gray-900.text-hover-primary.mb-2 {
+  position: relative;
+}
+
+span.svg-icon.svg-icon-1 {
+  position: relative;
+}
+
+a.fs-5.fw-bolder.text-gray-900.text-hover-primary.mb-2 p {
+  position: absolute;
+  top: -10px;
+  right: -14px;
+  background-color: #1e1e2d;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: #d0d1de;
+  line-height: 21px;
+  line-height: 21px;
+}
+
+.countBox {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: #50cd89;
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: #d0d1de;
+  line-height: 21px;
+  line-height: 21px;
+}
